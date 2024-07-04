@@ -1,0 +1,106 @@
+#publications {
+    margin: auto;
+    padding-top: 100px;
+  max-width: 1000px;
+  min-height: 50vh;
+  }
+  
+  .publications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .publication-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--light-navy);
+    border-radius: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .publication-item:hover {
+    transform: translateY(-5px);
+    background-color: var(--lightest-navy);
+  }
+  
+  .publication-image {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  
+  .publication-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .publication-title {
+    font-family: "NTR", sans-serif;
+    color: var(--lightest-slate);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer; /* Add pointer cursor to indicate clickable */
+  }
+  
+  .publication-details {
+    font-family: "NTR", sans-serif;
+    color: var(--slate);
+    font-size: 16px;
+    margin-top: 0px;
+    text-align: justify;
+  text-justify: inter-word;
+  }
+  
+
+  .project-container {
+    position: relative;
+  }
+  
+  .projects-card {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .projects-card.expanded {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    background-color: #f9f9f9;
+    border-color: #ccc;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+  }
+  
+  .projects-card .card-details {
+    margin-top: 10px;
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .section-header {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
