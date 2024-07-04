@@ -22,7 +22,7 @@ class NavBar extends React.Component {
               <Nav.Link href="#experience">Experience</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
               <Nav.Link href="#publications">Publications</Nav.Link>
-              <Nav.Link href="Aakasha01Agarwal/assets/cv.pdf" target="_blank">CV</Nav.Link>
+              <Nav.Link href="Aakash-Portfolio/assets/cv.pdf" target="_blank">CV</Nav.Link>
 
             </Nav>
             <Nav className="ml-auto">

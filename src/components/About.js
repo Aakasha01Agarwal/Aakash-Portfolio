@@ -22,7 +22,7 @@ class About extends React.Component {
         I am currently a second year <b>masters student</b> at
         <a href="https://www.upenn.edu/" target="_blank"> University of Pennsylvania</a>, majoring in Electrical Engineering. I like to research at the intersection of 
         Artificial Intelligence and Wireless Communication. Currently, I am fascinated by hardware efficient algorithms for machine learning. 
-      You can find my <a href="/assets/cv.pdf" target="_blank"><b>CV</b></a> here.</p>
+      You can find my <a href="/Aakash-Portfolio/assets/cv.pdf" target="_blank"><b>CV</b></a> here.</p>
     );
     const two = (
       <p>
